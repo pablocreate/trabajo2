@@ -1,0 +1,34 @@
+.iconos{
+	width:100%;
+	height: 100%;
+    margin: auto;
+	background:white ;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	width: 200px;
+	height: 100px;
+	margin: 12px;
+	text-align: center;
+	padding: 20px;
+}
+
+.iconico{
+	font-family: sans-serif;
+	color:#FF583F;
+	text-align: center;
+	padding: 10px;
+	margin:20px;
+}
+	
+.item h2{
+	font-family: sans-serif;
+	
+}
+.item h4{
+	font-family:sans-serif;
+}

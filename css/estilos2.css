@@ -1,0 +1,47 @@
+.get{
+	background: green;
+}
+
+.buscador form{
+	background: white;
+	width: 60%;
+	margin: auto;
+    display:flex;
+    background: #996633;
+    margin-top: 0px;
+}
+.buscador button{
+	width: 120px;
+	height: 50px;
+	margin:auto;
+	border: 0px;
+	background: black;
+	font-family: 'Lobster', cursive;
+	color:white;
+	font-size: 15px;
+	float: right ;
+	cursor:pointer;
+}
+.buscador input{
+	width:100%;
+	height: 50px;
+	margin:auto;
+	border: 0px;
+	background: white;
+	font-family:sans-serif;
+	color:black;
+	font-size: 15px;
+	float: left;
+	padding: 11px;
+	border:2px solid;
+ }
+.buscador{
+
+	width: 100%;
+	height: 50px;
+	margin-top: auto;
+	top: -30px;
+    position: relative;
+}
+
+

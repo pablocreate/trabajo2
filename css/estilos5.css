@@ -1,0 +1,82 @@
+.recuadro{
+	width:100%;
+	height: 250px;
+	background: #097DFF;
+	margin:auto;
+}
+
+.recuadro h3{
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 100px;
+	
+
+}
+.recuadro  h4{
+	color:white;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 12px;
+
+
+}
+
+.precios{
+	width: 100%;
+	height:100%;
+	margin: auto;
+	background:white;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+
+}
+.modulo{
+	width: 180px;
+	height: 280px;
+	background: white;
+	border:black solid 1px;
+	margin: 23px;
+	position: relative;
+	top: -60px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	line-height: 35px;
+}
+
+.modulo button{
+	background: #0DAEFF;
+	width: 140px;
+	height: 25px;
+	border:solid 1px;
+	margin: auto;
+	color:white;
+	border-radius: 8px; 
+}
+.banner{
+	width: 100%;
+	height:200px;
+	background: #183C6A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.banner h3{
+	color:#0DAEFF;
+	font-family: sans-serif;
+	text-align: center;
+}
+.banner h4{
+	font-family: 'Abel', sans-serif;
+	margin: 3px;
+	color: white;
+}
+
+
+

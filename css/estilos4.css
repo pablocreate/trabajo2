@@ -1,0 +1,96 @@
+.celular{
+	width: 100%;
+	background:white; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+
+
+
+
+}
+.telefono1{
+	
+	background:white;
+	width: 180px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	aling-content:center;
+	justify-content:flex-end;
+	font-family: sans-serif;
+	margin:10px;
+
+}
+.punto1{
+	margin: 2px
+	width: 50px;
+	height: 60px;
+	background: white;
+	padding: 22px;
+	margin-top:40px;
+	margin-right: 10px;
+	}
+	.punto3{
+	margin: 2px
+	width: 50px;
+	height: 60px;
+	background: white;
+	padding: 22px;
+	margin-top:40px;
+	margin-left: 40px;
+	}
+.telefono2{
+	background: white;
+	width: 230px;
+	text-align: center;
+	color:negro;
+	align-content: center;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+
+.punto1 img{
+	color:black;
+	float: right;
+     transform: translate(-15px,-20px);
+	}
+
+
+.telefono3{
+	
+	background:white;
+	width: 180px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	aling-content:center;
+	justify-content:flex-end;
+	font-family: sans-serif;
+	margin:10px;
+}
+
+.punto3 img{
+	color:black;
+	float: left;
+     transform: translate(-10px,-20px);
+	}
+	.telefono3{
+	background: white;
+	width: 180px;
+	text-align: left;
+}
+
+.telefono2 img{
+	position: relative;
+	top:50px;
+
+}
+.texcel{
+	position: relative;
+	top:40px;
+}
+

@@ -1,0 +1,158 @@
+@import url(estilos2.css);
+@import url(estilos3.css);
+@import url(estilos4.css);
+@import url(estilos5.css);
+@import url(estilos6.css);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+body{
+	background: white;
+}
+.logotipo h1{
+    margin: 15px;
+	width:140px;
+	height: 50px;
+	font-size:21px;
+	display:flex;
+	align-items: center;
+	color:white;
+	justify-content: space-between;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+	header{
+	display:flex;
+	justify-content: space-between;
+	height: 50px;
+	background: #FB1B08;
+	align-items: center;
+	margin:auto;
+	
+}
+	.navegador{
+	color:white;
+	font-family: sans-serif;
+	margin-right: 5px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row-reverse,column-reverse;
+    }
+
+li {
+	list-style-type:none;
+	margin: 10px;
+	float: right;
+	cursor:pointer;	
+}
+#slider img{
+	width: 100%;
+	height: 100%;
+
+}
+#slider{
+	position: relative;
+}
+#slider .contenedor{
+	position: absolute;
+	top:50%;
+	left: 10%;
+	color:white;
+	background: rgba(0,128,255,0.4);
+	padding: 8px;
+	border-radius: 5px;
+	text-align: center;
+}
+@media (min-width:120px){
+	#slider .contenedor{
+		background: rgba(0,128,255,0.4);
+		top:1%;
+		left: 30%;
+		font-family: sans-serif;
+		font-size: 8px;
+		
+	}
+}
+	
+	@media (min-width:680px){
+	#slider .contenedor{
+	position: absolute;
+	top:50%;
+	left: 20%;
+	color:white;
+	background: rgba(0,128,255,0.4);
+	padding: 8px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;
+		
+	}
+}
+@media (min-width:680px){
+     .logotipo,h1 {
+    margin: 680px;
+	width:140px;
+	height: 50px;
+	font-size:21px;
+	display:flex;
+	align-items: center;
+	color:white;
+	justify-content: space-between;
+	font-family: 'Fjalla One', sans-serif;
+	}
+}
+
+@media (min-width:334px){
+     .logotipo,h1 {
+    margin: 1px;
+	width:170px;
+	height: 50px;
+	font-size:21px;
+	display:flex;
+	align-items: center;
+	color:white;
+	justify-content: space-between;
+	font-family: 'Fjalla One', sans-serif;
+	}
+}
+@media (min-width:900px){
+     .logotipo{
+    margin: 230px;
+	
+	}
+}
+@media (min-width:334px){
+     .navegador{
+    color:white;
+	font-family: sans-serif;
+	margin-right: 5px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row-reverse,column-reverse;
+    }
+}
+@media (min-width:900px){
+     .navegador{
+    color:white;
+	font-family: sans-serif;
+	margin-right: 250px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row-reverse,column-reverse;
+    }
+}
+@media (min-width:900px){
+     .navegador{
+    color:white;
+	font-family: sans-serif;
+	margin-right: 250px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row-reverse,column-reverse;
+    }
+}
+
